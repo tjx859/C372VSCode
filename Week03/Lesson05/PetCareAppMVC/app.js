@@ -24,6 +24,7 @@ app.use(require('./routes/authRoutes'));
 app.use(require('./routes/adminRoutes'));
 app.use(require('./routes/petRoutes'));
 app.use(require('./routes/journalRoutes'));
+app.use(require('./routes/paymentRoutes'));
 
 // =========================
 // Start Server
